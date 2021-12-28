@@ -1,6 +1,6 @@
 # Privacy-Icons Browser Extension
 
-This extension was developed for a diary study as part of a paper about visualizing privacy policies with icons. For further information about this study, please submit an issue or otherwise get in contact with the maintainers of this repository. We will gladly share our seminar paper with you. In addition to the extension, this repository contains the icon set that resulted from our first study. The set can be found in the folder ['iconset'](./iconset/).
+This extension was developed for a diary study as part of the paper **Privacy at a Glance: A Process to Learn Modular Privacy IconsDuring Web Browsing**. For further information about this study, please submit an issue or otherwise get in contact with the maintainers of this repository. We will gladly share the paper with you. In addition to the extension, this repository contains the icon set that resulted from our first study. The set can be found in the folder ['iconset'](./iconset/).
 
 The extension works on Chrome and Firefox browsers. Every hour of browsing it displays a popup with two icons and a descriptive text next to them. These elements are chosen randomly from a set of predetermined icons, but are meant to emulate possible privacy policies that the visited page might imposed. The user can then close the popup by either hitting the 'Accept' or 'Decline' button, but only after they entered a reason for their choice.
 
