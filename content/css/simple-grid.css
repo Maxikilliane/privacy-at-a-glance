@@ -1,0 +1,174 @@
+/**
+*** SIMPLE GRID
+*** (C) ZACH COLE 2016
+**/
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic);
+
+
+/* ROOT FONT STYLES */
+
+.overlay {
+  font-family: 'Lato', Helvetica, sans-serif;
+  color: #333447;
+  line-height: 1.5;
+}
+
+/* ==== GRID SYSTEM ==== */
+
+.container {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.icon-extension-row {
+  position: relative;
+  width: 100%;
+}
+
+.icon-extension-row [class^="icon-extension-col"] {
+  float: left;
+  margin: 0.5rem 2%;
+  min-height: 0.125rem;
+}
+
+.icon-extension-col-1,
+.icon-extension-col-2,
+.icon-extension-col-3,
+.icon-extension-col-4,
+.icon-extension-col-5,
+.icon-extension-col-6,
+.icon-extension-col-7,
+.icon-extension-col-8,
+.icon-extension-col-9,
+.icon-extension-col-10,
+.icon-extension-col-11,
+.icon-extension-col-12 {
+  width: 96%;
+}
+
+.icon-extension-col-1-sm {
+  width: 4.33%;
+}
+
+.icon-extension-col-2-sm {
+  width: 12.66%;
+}
+
+.icon-extension-col-3-sm {
+  width: 21%;
+}
+
+.icon-extension-col-4-sm {
+  width: 29.33%;
+}
+
+.icon-extension-col-5-sm {
+  width: 37.66%;
+}
+
+.icon-extension-col-6-sm {
+  width: 46%;
+}
+
+.icon-extension-col-7-sm {
+  width: 54.33%;
+}
+
+.icon-extension-col-8-sm {
+  width: 62.66%;
+}
+
+.icon-extension-col-9-sm {
+  width: 71%;
+}
+
+.icon-extension-col-10-sm {
+  width: 79.33%;
+}
+
+.icon-extension-col-11-sm {
+  width: 87.66%;
+}
+
+.icon-extension-col-12-sm {
+  width: 96%;
+}
+
+.row::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.hidden-sm {
+  display: none;
+}
+
+@media only screen and (min-width: 33.75em) {  /* 540px */
+  .container {
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 45em) {  /* 720px */
+  .icon-extension-col-1 {
+    width: 4.33%;
+  }
+
+  .icon-extension-col-2 {
+    width: 12.66%;
+  }
+
+  .icon-extension-col-3 {
+    width: 21%;
+  }
+
+  .icon-extension-col-4 {
+    width: 29.33%;
+  }
+
+  .icon-extension-col-5 {
+    width: 37.66%;
+  }
+
+  .icon-extension-col-6 {
+    width: 46%;
+  }
+
+  .icon-extension-col-7 {
+    width: 54.33%;
+  }
+
+  .icon-extension-col-8 {
+    width: 62.66%;
+  }
+
+  .icon-extension-col-9 {
+    width: 71%;
+  }
+
+  .icon-extension-col-10 {
+    width: 79.33%;
+  }
+
+  .icon-extension-col-11 {
+    width: 87.66%;
+  }
+
+  .icon-extension-col-12 {
+    width: 96%;
+  }
+
+  .icon-extension-hidden-sm {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 60em) { /* 960px */
+  .container {
+    width: 75%;
+    max-width: 60rem;
+  }
+}

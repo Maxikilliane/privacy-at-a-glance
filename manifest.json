@@ -1,0 +1,21 @@
+{
+  "name": "Icon Extension",
+  "version": "1.7",
+  "description": "Periodically shows and explains random PP icons",
+  "permissions": [
+    "storage", "activeTab",  "downloads"
+  ],
+  "background": {
+    "scripts": ["background/onInstall.js"],
+    "persistent": false
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*/*"],
+      "css": ["content/css/styles.css", "content/css/simple-grid.css"],
+      "js": ["content/randomIconGenerator.js", "content/popupGenerator.js", "content/informationLogger.js"]
+    }
+  ],
+  "web_accessible_resources": ["res/MainCategory/*", "res/SubCategory/*"],
+  "manifest_version": 2
+}
